@@ -1,0 +1,22 @@
+{
+    "name": "boxphp/server",
+    "description": "BoxPHP Server - HTTP, TCP, WebSocket, Middleware",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BoxPHP\\Server\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "boxphp/core": "dev-master",
+        "workerman/workerman": "^4.0"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../core"
+        }
+    ]
+}
